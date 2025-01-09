@@ -11,7 +11,15 @@ namespace FirstClass
         public string Name { get; set; }
         public string Surname {  get; set; }
         public int BirthDate {  get; set; }
+
+        public void GetInformation()
+        {
+            Console.WriteLine("\nAdı: " + Name + "\nSoyadı: " + Surname + "\nDogum Tarihi: " + BirthDate);
+        }
+
+
     }
 
+    
     
 }
